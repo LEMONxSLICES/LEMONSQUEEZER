@@ -61,20 +61,6 @@ body , html {
     margin-left : 100px ;
 }
 
-.squidward-gif {
-
-    display : none ;
-    position : absolute ;
-    z-index : 2 ;
-    margin : 5px 95% ;
-    width : 60px ;
-}
-
-body .panel:hover .squidward-gif {
-
-    display : block ;
-}
-
 /* Qoute */
 
 .qoute {
@@ -142,7 +128,7 @@ body .panel:hover .squidward-gif {
 .container-2 h2 {
 
     flex : 50% ;
-    padding : 50px 20px ;
+    padding : 150px 20px ;
     margin-right : 20px ;
 }
 
@@ -150,7 +136,7 @@ body .panel:hover .squidward-gif {
 
     flex : 50% ;
     margin-right : 30px ;
-    width : 250px ;
+    width : 25px ;
 }
 
 /* Container 3 */
