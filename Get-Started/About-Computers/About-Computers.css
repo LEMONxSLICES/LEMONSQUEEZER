@@ -12,9 +12,10 @@ body a:visited { color : rgb(228, 194, 0) ; }
 
 .left-side-panel {
 
+    position : fixed ;
+    left : 0 ; top : 0 ;
     background : linear-gradient( rgba( 255,255,255,0.1 ) , rgba( 255,255,255,0 ) ) ;
     backdrop-filter : blur( 3px ) ;
-    flex : 20% ;
     border-right : solid gray 1px ;
     height : 100% ;
 }
@@ -52,6 +53,11 @@ body a:visited { color : rgb(228, 194, 0) ; }
     margin-left : 30px ;
 }
 
+.invisible-div {
+
+    flex : 20% ;
+}
+
 /* Main Content */
 
 .main-content {
@@ -72,4 +78,28 @@ body a:visited { color : rgb(228, 194, 0) ; }
     word-spacing : 8px ;
     text-indent : 40px ;
     text-align : center ;
+}
+
+/* Additional Conent */
+
+.comparison-table {
+
+    border-collapse : collapse ;
+    margin : 50px 450px ;
+}
+
+th, td {
+
+    border : solid 1px ;
+    padding : 15px ;
+    width : 100% ;
+    text-align : center ;
+}
+
+.end-box {
+
+    background-color : lightblue ;
+    padding : 10px ;
+    margin : 50px ;
+    border-radius : 20px ;
 }

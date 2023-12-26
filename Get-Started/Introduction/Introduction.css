@@ -1,0 +1,81 @@
+body , html {
+
+    width : 100% ;
+    height : 100% ;
+    margin : 0 ;
+    padding : 0 ;
+}
+
+body a:visited { color : rgb(228, 194, 0) ; }
+
+/* Left Side Panel */
+
+.left-side-panel {
+
+    position : fixed ;
+    left : 0 ; top : 0 ;
+    background : linear-gradient( rgba( 255,255,255,0.1 ) , rgba( 255,255,255,0 ) ) ;
+    backdrop-filter : blur( 3px ) ;
+    border-right : solid gray 1px ;
+    height : 100% ;
+}
+
+.left-side-panel h1 {
+
+    color : #1d1d1dff ;
+    font-family : 'Pink Bloom' ;
+    padding : 10px 50px ;
+}
+
+.left-side-panel ul { margin-top : 100px ; }
+
+.left-side-panel li {
+
+    list-style : none ;
+    margin-top : 30px ;
+}
+
+.left-side-panel a {
+
+    color : #1d1d1dff ;
+    text-decoration : none ;
+}
+
+.left-side-panel a:hover {
+
+    color : gold ;
+}
+
+.left-side-panel img {
+
+    width : 150px ;
+    margin-top : 100px ;
+    margin-left : 30px ;
+}
+
+.invisible-div {
+
+    flex : 20% ;
+}
+
+/* Main Content */
+
+.main-content {
+
+    flex : 90% ;
+}
+
+.main-content h1 {
+
+    font-family : 'Pink Bloom' ;
+    text-indent : 20px ;
+}
+
+.main-content h2 {
+
+    font-family : 'Indie Flower' ;
+    font-size : 25px ;
+    word-spacing : 8px ;
+    text-indent : 40px ;
+    text-align : center ;
+}
