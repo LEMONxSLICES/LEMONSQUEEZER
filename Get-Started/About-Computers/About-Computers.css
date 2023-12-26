@@ -65,6 +65,15 @@ body a:visited { color : rgb(228, 194, 0) ; }
     flex : 90% ;
 }
 
+.note {
+
+    background : linear-gradient( to right , orange , red ) ;
+    padding : 10px ;
+    color : white ;
+    margin : 50px 20px ;
+    border-radius : 20px ;
+}
+
 .main-content h1 {
 
     font-family : 'Pink Bloom' ;

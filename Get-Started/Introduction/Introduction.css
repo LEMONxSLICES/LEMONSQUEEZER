@@ -65,6 +65,15 @@ body a:visited { color : rgb(228, 194, 0) ; }
     flex : 90% ;
 }
 
+.switch-theme-button {
+
+    background-color : rgba(0,0,0,0) ;
+    position : fixed ;
+    right : 20px ; top : 20px ; 
+    border-radius : 20px ;
+    border : none ;
+}
+
 .main-content h1 {
 
     font-family : 'Pink Bloom' ;
