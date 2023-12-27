@@ -88,36 +88,3 @@ body a:visited { color : rgb(228, 194, 0) ; }
     text-indent : 40px ;
     text-align : center ;
 }
-
-/* Additional Conent */
-
-.note {
-
-    background : linear-gradient( to right , orange , red ) ;
-    padding : 10px ;
-    color : white ;
-    margin : 50px 20px ;
-    border-radius : 20px ;
-}
-
-.comparison-table {
-
-    border-collapse : collapse ;
-    margin : 50px 450px ;
-}
-
-th, td {
-
-    border : solid 1px ;
-    padding : 15px ;
-    width : 100% ;
-    text-align : center ;
-}
-
-.end-box {
-
-    background-color : lightblue ;
-    padding : 10px ;
-    margin : 50px ;
-    border-radius : 20px ;
-}

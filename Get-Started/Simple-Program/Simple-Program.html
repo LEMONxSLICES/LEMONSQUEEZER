@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Coding | Get Started</title>
+    <link rel="stylesheet" href="Simple-Program.css">
+    <script src="../Theme.js"></script>
+    <!-- Google Font [ Indie Flower ] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body style="display : flex ; background-color : #ecececff">
+    <div class="left-side-panel">
+        <h1><a href="../../Learn.html">WELCOME</a></h1>
+        <ul>
+            <li><a href="../Introduction/Introduction.html" style="background-color : #ecececff ; padding : 10px ; border-radius : 20px">INTRODUCTION</a></li>
+            <li><a href="../About-Computers/About-Computers.html" style="background-color : #ecececff ; padding : 10px ; border-radius : 20px">ABOUT COMPUTERS</a></li>
+            <li><a href="../Coding/Introduction-to-Python.html" style="background-color : #ecececff ; padding : 10px ; border-radius : 20px">CODING</a></li>
+            <li><a href="../Simple-Program/Simple-Program.html" style="background-color : #ecececff ; padding : 10px ; border-radius : 20px">SIMPLE PROGRAM</a></li>
+        </ul>
+        <img src="../imgs/Squidward-Dancing.gif">
+    </div>
+
+    <!-- left-side-panel position is fixed , so the other content will go behind it , so this div will take
+         the same space as the left-side-panel and by that the content will be pushed 20% right 
+         [ We can marge the content left but i like this way ]-->
+    
+    <div class="invisible-div"></div>
+
+    <div class="main-content">
+        <button class="switch-theme-button" onclick="SwitchTheme()"><img width="20px" src="../imgs/MOON.svg"></button>
+
+        <h1 style="text-align:right;margin-right:30px">LEMON</h1>
+    </div>
+</body>
+</html>

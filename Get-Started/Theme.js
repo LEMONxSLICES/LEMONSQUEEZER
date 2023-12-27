@@ -12,5 +12,6 @@ function SwitchTheme()
     {
         document.body.style.backgroundColor = "#ecececff" ;
         document.body.style.color = "#1d1d1dff" ;
+        Theme = "light" ;
     }
 }
