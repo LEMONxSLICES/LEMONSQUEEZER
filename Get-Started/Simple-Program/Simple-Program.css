@@ -88,3 +88,32 @@ body a:visited { color : rgb(228, 194, 0) ; }
     text-indent : 40px ;
     text-align : center ;
 }
+
+/* Additional Content */
+
+.note-box {
+
+    padding : 15px ;
+    margin : 30px ;
+    border-radius : 20px ;
+    background : linear-gradient( to right , orange , rgb(248, 44, 44) ) ;
+}
+
+.code-space {
+
+    font-family : Tahoma ;
+    width : 30% ;
+    margin-left : 350px ;
+    color : white ;
+    background-color : #1a1a1aff ;
+    border-radius : 5px ;
+    padding : 20px ;
+}
+
+.end-box {
+
+    padding : 15px ;
+    margin : 30px ;
+    border-radius : 20px ;    
+    background : linear-gradient( to right , lightblue , pink ) ;
+}

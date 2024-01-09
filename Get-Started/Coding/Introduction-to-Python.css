@@ -93,7 +93,7 @@ body a:visited { color : rgb(228, 194, 0) ; }
 
 .end-box {
 
-    background : linear-gradient( to bottom , gold , rgba( 0,0,0,0 ) ) ;
+    background : linear-gradient( to right , lightblue , pink ) ;
     border-radius : 20px ;
     margin : 50px ;
 }

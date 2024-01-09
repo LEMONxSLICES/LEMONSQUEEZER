@@ -95,7 +95,7 @@ body a:visited { color : rgb(228, 194, 0) ; }
 
     background : linear-gradient( to right , orange , red ) ;
     padding : 10px ;
-    color : white ;
+    color : #ecececff ;
     margin : 50px 20px ;
     border-radius : 20px ;
 }
@@ -116,7 +116,7 @@ th, td {
 
 .end-box {
 
-    background-color : lightblue ;
+    background : linear-gradient( to right , lightblue , pink ) ;
     padding : 10px ;
     margin : 50px ;
     border-radius : 20px ;

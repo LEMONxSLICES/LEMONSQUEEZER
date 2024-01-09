@@ -163,3 +163,11 @@ body , html {
 
     color : rgb(76, 76, 255) ;
 }
+
+/* Footer */
+
+.footer {
+
+    background-color : #1d1d1dff ;
+    color : #ecececff ;
+}
